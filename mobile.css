@@ -1,0 +1,39 @@
+
+
+@media screen and (max-width: 1200px) {
+    .navigation{
+        flex-direction: column;
+    }
+    .nav-left{
+        flex-direction: column;
+        text-align: center;
+    }
+    .content-right img{
+        display: none;
+    }
+    .home-article{
+        flex-direction: column;
+    }
+    .home-article-img{
+        text-align: center;
+    }
+    .home-article img{
+        width: 65vw;
+    }
+    .home-article-content{
+        text-align: center;
+    }
+    .content-left {
+        
+        margin: 10px;
+        padding: 1px;
+        height: 90vh;
+    }
+    .form-box input, textarea{
+        width: 68vw;
+        
+    }
+    .blog-right img{
+        display: none;
+    }
+}

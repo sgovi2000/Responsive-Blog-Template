@@ -1,0 +1,30 @@
+
+
+.form-box input, textarea{
+    width: 568px;
+    margin: 4px 0;
+    padding: 9px 10px;
+    font-size: 13px;
+    font-family: var(--font1);
+    border: 2px solid brown;
+    border-radius: 8px;
+}
+.contact-content{
+    height: 100vh;
+    position: relative;
+    display: flex;
+    padding: 4px 13px;
+    margin-top: 12px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.contact-content::after {
+    content: "";
+    background-image: url("../img/13.jpg");
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    opacity: 0.15;
+    margin-left: -13px;
+    border-radius: 12px;
+  }
